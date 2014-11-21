@@ -1,0 +1,2 @@
+#!/bin/bash
+docker run --rm=true -v "$PWD":/home -i -t haskell ghci "$@"
